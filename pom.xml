@@ -6,7 +6,7 @@
 
     <groupId>nl.devgs</groupId>
     <artifactId>mapstruct-spi-usage</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -35,7 +35,7 @@
         <dependency>
             <groupId>nl.devgs</groupId>
             <artifactId>mapstruct-spi</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -58,8 +58,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>11</source>
+                    <target>11</target>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.mapstruct</groupId>
@@ -69,7 +69,7 @@
                         <path>
                             <groupId>nl.devgs</groupId>
                             <artifactId>mapstruct-spi</artifactId>
-                            <version>1.0-SNAPSHOT</version>
+                            <version>1.0</version>
                         </path>
                         <path>
                             <groupId>org.projectlombok</groupId>
